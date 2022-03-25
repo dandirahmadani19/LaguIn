@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+}
+
+.container {
+  min-height: 81.3vh;
+}
+
+#btn-account {
+  cursor: pointer;
+}
+
+#btn-logout {
+  cursor: pointer;
+}
