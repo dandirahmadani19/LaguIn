@@ -14,7 +14,7 @@ function generateFavorite(userdata) {
     colMd.setAttribute("id", `card${i+1}`);
     colMd.addEventListener("click", function(){
         window.location.href = '../playmusic/';
-        localStorage.setItem('dataMusicPlay', JSON.stringify(data[i]));
+        localStorage.setItem('dataMusicPlay', JSON.stringify(userdata[i]));
     });
     main.appendChild(colMd);
 
