@@ -45,7 +45,7 @@ function generateFavorite(userdata) {
 generateFavorite(userdata)
 
 document.getElementById("btn-logout").addEventListener("click", function(){
-  window.location.href = "../";
+  window.location.href = "../login/";
 })
 
 document.getElementById("btn-account").addEventListener("click", function(){
