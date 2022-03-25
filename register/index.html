@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <title>Register - LaguIn</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-register">
+        <h1>Sign Up</h1>
+        <div id="form">
+          <form>
+            <input type="text" placeholder="First Name" id="firstname" />
+            <input type="text" placeholder="Last Name" id="lastname" />
+            <input type="text" placeholder="Username" id="username" />
+            <input type="password" placeholder="Password" id="password" />
+            <input
+              value="Sign Up"
+              class="button"
+              type="button"
+              onclick="createNewUser()"
+            />
+          </form>
+        </div>
+        <p>
+          Sudah punya akun ? Silahkan
+          <button class="button btn-signup" onclick="pindahKeLoginPage()">
+            Login
+          </button>
+          disini
+        </p>
+      </div>
+    </div>
+    <script src="register.js"></script>
+    
+  </body>
+</html>
