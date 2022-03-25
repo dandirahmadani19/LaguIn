@@ -21,7 +21,7 @@ function prosesLogin() {
             }
         }
         if (isUserName && isPassword){
-            window.location.href = 'homepage/';
+            window.location.href = './homepage/';
             
             localStorage.setItem("username", username);
         } else {
@@ -31,5 +31,5 @@ function prosesLogin() {
 }
 
 function pindahKeSignUpPage(){
-    window.location.href = 'register/';
+    window.location.href = './register/';
 }
