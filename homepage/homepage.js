@@ -156,7 +156,7 @@ document.getElementById("btn-favorite").addEventListener("click", function(){
 })
 
 document.getElementById("btn-logout").addEventListener("click", function(){
-  window.location.href = "../";
+  window.location.href = "../login/";
 })
 
 document.getElementById("btn-homepage").addEventListener("click", function(){
